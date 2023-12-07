@@ -7,16 +7,16 @@ import Logica.Herencia.Jefe;
 import Logica.Herencia.Persona;
 
 public class POO {
-   public static void main(String[] args){
+   //public static void main(String[] args){
        //Crear nuevo objeto sin parametros
-       Alumno alu1 = new Alumno();
+       //Alumno alu1 = new Alumno();
        //Crear objeto nuevo con parametros
-       Alumno alu2 = new Alumno(2,"Pedro","Fernandez");
+       //Alumno alu2 = new Alumno(2,"Pedro","Fernandez");
        
        //Encapsulamiento
-       System.out.println("id = " + alu2.getId());
-       System.out.println("nombre = " + alu2.getNombre());
-       System.out.println("apellido = " + alu2.getApellido());
+       //System.out.println("id = " + alu2.getId());
+       //System.out.println("nombre = " + alu2.getNombre());
+       //System.out.println("apellido = " + alu2.getApellido());
        
        /*System.out.println("La id del alumno 2 es: " + alu2.getId());
        System.out.println("El nombre es: " + alu2.getNombre());
@@ -56,5 +56,5 @@ public class POO {
        persona = consultor;*/
        
        //Clases abstractas
-   } 
+   //} 
 }
